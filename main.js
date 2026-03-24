@@ -374,6 +374,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 console.log('%c🚀 GANESH PRAVIN MACHALE — Portfolio Loaded', 'color:#00d4ff;font-size:1.2rem;font-weight:bold;');
 
+  let p = document.querySelector("#cert1");
+    p.addEventListener("click", function(){
+      window.location.href="https://www.coursera.org/account/accomplishments/verify/WV6J2Y80H98Q";
+    });
 
-
-src:"";
+    let pa = document.querySelector("#cert2");
+    pa.addEventListener("click", function(){
+      window.location.href="https://www.coursera.org/account/accomplishments/verify/VEIW7TG2ABQ6";
+    });
